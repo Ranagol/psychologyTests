@@ -65,13 +65,13 @@
                             <p>I am here because: </p>
                             <div class="custom-control custom-radio welcome-divs">
                                 
-                                <input type="radio" id="psychologist" name="client" value="false">
+                                <input type="radio" id="psychologist" name="client" value="0">
                                 <label for="psychologist" >I want to help (I am a psychologist)</label>
                             </div>
 
                             <div class="custom-control custom-radio welcome-divs">
                                 
-                                <input type="radio" id="client" name="client" value="true" >
+                                <input type="radio" id="client" name="client" value="1" >
                                 <label for="client" >I would like to talk to a psychologist</label>
                             </div>
                             
