@@ -61,6 +61,24 @@
                             </div>
                         </div>
 
+                        <div class="welcome-div">
+                            <p>I am here because: </p>
+                            <div class="custom-control custom-radio welcome-divs">
+                                
+                                <input type="radio" id="psychologist" name="client" value="false">
+                                <label for="psychologist" >I want to help (I am a psychologist)</label>
+                            </div>
+
+                            <div class="custom-control custom-radio welcome-divs">
+                                
+                                <input type="radio" id="client" name="client" value="true" >
+                                <label for="client" >I would like to talk to a psychologist</label>
+                            </div>
+                            
+                        </div>
+
+
+
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
