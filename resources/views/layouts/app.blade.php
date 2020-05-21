@@ -20,6 +20,51 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo asset('style.css')?>" type="text/css">
+
+    <style>
+        .chat {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+      
+        .chat li {
+          margin-bottom: 10px;
+          padding-bottom: 5px;
+          border-bottom: 1px dotted #B3A9A9;
+        }
+      
+        .chat li .chat-body p {
+          margin: 0;
+          color: #777777;
+        }
+      
+        .panel-body {
+          overflow-y: scroll;
+          height: 350px;
+        }
+      
+        ::-webkit-scrollbar-track {
+          -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+          background-color: #F5F5F5;
+        }
+      
+        ::-webkit-scrollbar {
+          width: 12px;
+          background-color: #F5F5F5;
+        }
+      
+        ::-webkit-scrollbar-thumb {
+          -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+          background-color: #555;
+        }
+      </style>
+
+
+
+
+
+
 </head>
 <body>
     <div id="app">
