@@ -17,6 +17,21 @@
 
 <script>
   export default {
-    props: ['messages']
+    props: {
+        message: {
+            required: false,
+            type: Array,
+            default: function () {
+                return [];
+            }
+        },
+        user: {
+            required: false,
+            type: Object,
+            default: function () {
+                return {};
+            }
+        }
+    }
   };
 </script>

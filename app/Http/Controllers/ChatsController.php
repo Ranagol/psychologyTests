@@ -21,7 +21,10 @@ class ChatsController extends Controller
      */
     public function index()
     {
-        return view('chat.chat');
+        $user = Auth::user();
+        $messages = $user->messages;
+        
+        return view('chat.chat', compact('messages', 'user'));
     }
 
     /**
